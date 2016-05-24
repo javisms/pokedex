@@ -26,23 +26,23 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collection.dataSource = self
         searchBar.delegate = self
         searchBar.returnKeyType = UIReturnKeyType.Done
-//        initAudio()
+        initAudio()
         parsePokemonCSV()
     }
     
-//    func initAudio() {
-//        
-//        let path = NSBundle.mainBundle().pathForResource("music", ofType: "mp3")!
-//        
-//        do {
-//            musicPlayer = try AVAudioPlayer(contentsOfURL: NSURL(string: path)!)
-//            musicPlayer.prepareToPlay()
-//            musicPlayer.numberOfLoops = -1
-//            musicPlayer.play()
-//        } catch let err as NSError {
-//            print(err.debugDescription)
-//        }
-//    }
+    func initAudio() {
+        
+        let path = NSBundle.mainBundle().pathForResource("music", ofType: "mp3")!
+        
+        do {
+            musicPlayer = try AVAudioPlayer(contentsOfURL: NSURL(string: path)!)
+            musicPlayer.prepareToPlay()
+            musicPlayer.numberOfLoops = -1
+            musicPlayer.play()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+    }
     
     func parsePokemonCSV() {
         let path = NSBundle.mainBundle().pathForResource("pokemon", ofType: "csv")!
@@ -119,13 +119,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     @IBAction func musicBtnPressed(sender: UIButton!) {
         
-//        if musicPlayer.playing {
-//            musicPlayer.stop()
-//            sender.alpha = 0.2
-//        } else {
-//            musicPlayer.play()
-//            sender.alpha = 1.0
-//        }
+        if musicPlayer.playing {
+            musicPlayer.stop()
+            sender.alpha = 0.2
+        } else {
+            musicPlayer.play()
+            sender.alpha = 1.0
+        }
     }
     
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
