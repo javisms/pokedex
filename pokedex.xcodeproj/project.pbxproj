@@ -20,6 +20,7 @@
 		F9BE90821CEF69610007322D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE90811CEF69610007322D /* Pokemon.swift */; };
 		F9BE90851CEF98B20007322D /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE90841CEF98B20007322D /* PokeCell.swift */; };
 		F9BE90871CEFBB6E0007322D /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE90861CEFBB6E0007322D /* csv.swift */; };
+		F9FF482A1CF3DAD500985768 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF48291CF3DAD500985768 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F9BE90811CEF69610007322D /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		F9BE90841CEF98B20007322D /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		F9BE90861CEFBB6E0007322D /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		F9FF48291CF3DAD500985768 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BE90861CEFBB6E0007322D /* csv.swift */,
+				F9FF48291CF3DAD500985768 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				F9BE906F1CEF64E10007322D /* ViewController.swift in Sources */,
 				F9BE906D1CEF64E10007322D /* AppDelegate.swift in Sources */,
 				F9179F901CF37D8500EE0588 /* PokemonDetailVC.swift in Sources */,
+				F9FF482A1CF3DAD500985768 /* Constants.swift in Sources */,
 				F9BE90821CEF69610007322D /* Pokemon.swift in Sources */,
 				F9BE90871CEFBB6E0007322D /* csv.swift in Sources */,
 			);

@@ -436,18 +436,18 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="attackLbl" destination="Ie1-d4-jB3" id="jVp-SM-Y18"/>
+                        <outlet property="attackLbl" destination="HD4-4X-gfj" id="Ahv-hx-hRW"/>
                         <outlet property="currentEvoImg" destination="uPF-nb-OPI" id="h0C-1S-1pw"/>
-                        <outlet property="defenseLbl" destination="5C4-j7-SWO" id="ebp-gL-Ccf"/>
+                        <outlet property="defenseLbl" destination="bme-eb-kVW" id="H4d-5e-6tM"/>
                         <outlet property="descriptionLbl" destination="qHS-QE-WTz" id="Evi-8K-q7z"/>
                         <outlet property="evoLbl" destination="vvR-PB-VKK" id="qZq-ws-D00"/>
-                        <outlet property="heightLbl" destination="ooK-9Z-g8k" id="Kac-bt-YhT"/>
+                        <outlet property="heightLbl" destination="eVM-Rp-Jcg" id="8g5-Jx-uRb"/>
                         <outlet property="mainImg" destination="sE0-nc-7fG" id="WZU-V6-Gdb"/>
                         <outlet property="nameLbl" destination="uTi-gV-SK9" id="5UE-Te-ggC"/>
                         <outlet property="nextEvoImg" destination="3RJ-oH-ljg" id="TXd-fh-Nj2"/>
-                        <outlet property="pokedexIdLbl" destination="EyT-XK-GkH" id="owh-7x-KLC"/>
-                        <outlet property="typeLbl" destination="jkr-03-FXA" id="AIM-Dt-Kzm"/>
-                        <outlet property="weightLbl" destination="eiA-I1-x0V" id="kEK-qD-l84"/>
+                        <outlet property="pokedexIdLbl" destination="gOY-wr-OzR" id="9bo-U5-TPK"/>
+                        <outlet property="typeLbl" destination="iwu-LF-2cW" id="Boc-Z7-x8c"/>
+                        <outlet property="weightLbl" destination="dsb-9J-5Af" id="GiV-3z-pcR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vTa-ud-HjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
