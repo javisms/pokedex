@@ -218,6 +218,9 @@
                                             <segment title="Moves"/>
                                         </segments>
                                         <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="indexChanged:" destination="Rwu-Kj-NyP" eventType="valueChanged" id="ROp-EZ-4HF"/>
+                                        </connections>
                                     </segmentedControl>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Hb6-yK-M1U">
                                         <rect key="frame" x="0.0" y="49" width="560" height="120"/>
@@ -233,7 +236,7 @@
                                                 <rect key="frame" x="120" y="0.0" width="440" height="120"/>
                                                 <string key="text">Pokemon Description iausd aslidu l asdjblasiudh lasjdb al ksdjbual ks dlaj sl alds al dlabkhsbfla  alufb al fla fl alf alufhbdl kfj alkdfj aljfd alf la.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -446,6 +449,7 @@
                         <outlet property="nameLbl" destination="uTi-gV-SK9" id="5UE-Te-ggC"/>
                         <outlet property="nextEvoImg" destination="3RJ-oH-ljg" id="TXd-fh-Nj2"/>
                         <outlet property="pokedexIdLbl" destination="gOY-wr-OzR" id="9bo-U5-TPK"/>
+                        <outlet property="segmentedControl" destination="TTi-Ti-ll5" id="6P0-yP-sm8"/>
                         <outlet property="typeLbl" destination="iwu-LF-2cW" id="Boc-Z7-x8c"/>
                         <outlet property="weightLbl" destination="dsb-9J-5Af" id="GiV-3z-pcR"/>
                     </connections>
